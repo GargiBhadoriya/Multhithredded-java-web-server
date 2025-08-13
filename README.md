@@ -1,2 +1,16 @@
 # Multhithredded-java-web-server
-A lightweight, multithreaded web server built in Java that can handle multiple client requests simultaneously. The server uses socket programming to listen for incoming HTTP requests, processes them concurrently using a thread pool, and sends back appropriate HTTP responses.
+A simple multithreaded HTTP server in Java—built from scratch with no external frameworks.
+
+Features
+Handles multiple clients concurrently via a fixed‐size thread pool
+Supports basic GET and POST requests
+Serves simple HTML pages and processes form data
+Returns 405 for unsupported methods
+Logs each request (IP, method, path, status) to server.log
+Quick Start
+Compile
+javac runner.java
+Run
+java runner
+Request Log
+
