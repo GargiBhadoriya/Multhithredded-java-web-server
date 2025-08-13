@@ -1,7 +1,7 @@
 # Multhithredded-java-web-server
 A simple multithreaded HTTP server in Java—built from scratch with no external frameworks.
 
-Features
+Features:
 Handles multiple clients concurrently via a fixed‐size thread pool
 Supports basic GET and POST requests
 Serves simple HTML pages and processes form data
